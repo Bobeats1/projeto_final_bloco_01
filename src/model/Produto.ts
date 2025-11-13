@@ -43,7 +43,7 @@ public visualizar (): void{
         console.log("*****************************************************");
         console.log("ID do Produto: " + this._numero);
         console.log("Modelo: " + this._modelo);
-        console.log("Preço do Produto (R$): " + this.preco);
+        console.log("Preço do Produto (R$): " + this._preco);
     
 }
 }
