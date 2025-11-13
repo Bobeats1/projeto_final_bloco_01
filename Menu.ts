@@ -1,9 +1,18 @@
 import readlinesync = require("readline-sync");
 import { colors } from "./src/util/Colors";
+import { Produto } from "./src/model/Produto";
+import { Carro } from "./src/model/Carro";
+import { Moto } from "./src/model/Moto";
 
 export function main() {
 
     let opcao: number;
+// TESTE DE CLASSES
+    const moto: Moto = new Moto(1, "Nimbus", 500, 700);
+    moto.visualizar();
+
+       const carro: Carro = new Carro(4, "Ceifador", 700, 4);
+    carro.visualizar();
 
     while (true) {
 
