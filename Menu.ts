@@ -137,7 +137,7 @@ export function main() {
 
                 console.log("Digite o ID do produto: ");
                 numero= readlinesync.questionInt("");
-                produtos.apagar(numero);
+                // produtos.apagar(numero); // Erro 
 
                 keyPress()
                 break;
